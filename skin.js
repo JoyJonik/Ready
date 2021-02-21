@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.2.4/15996
 // Filename: simplex_v5_autohide.ggsk
-// Generated Вс фев 21 18:59:18 2021
+// Generated Вс фев 21 19:09:15 2021
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -501,20 +501,20 @@ function pano2vrSkin(player,base) {
 		}
 		this._up.ggUpdatePosition=function (useTransition) {
 		}
-		this._gyro=document.createElement('div');
-		this._gyro__img=document.createElement('img');
-		this._gyro__img.className='ggskin ggskin_button';
-		this._gyro__img.setAttribute('src',basePath + 'images/gyro.png');
-		this._gyro__img.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;');
-		this._gyro__img.className='ggskin ggskin_button';
-		this._gyro__img['ondragstart']=function() { return false; };
-		me.player.checkLoaded.push(this._gyro__img);
-		this._gyro.appendChild(this._gyro__img);
-		this._gyro.ggId="gyro";
-		this._gyro.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._gyro.ggVisible=true;
-		this._gyro.className='ggskin ggskin_button ';
-		this._gyro.ggType='button';
+		this._paplooo=document.createElement('div');
+		this._paplooo__img=document.createElement('img');
+		this._paplooo__img.className='ggskin ggskin_button';
+		this._paplooo__img.setAttribute('src',basePath + 'images/paplooo.png');
+		this._paplooo__img.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;');
+		this._paplooo__img.className='ggskin ggskin_button';
+		this._paplooo__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._paplooo__img);
+		this._paplooo.appendChild(this._paplooo__img);
+		this._paplooo.ggId="paplooo";
+		this._paplooo.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._paplooo.ggVisible=true;
+		this._paplooo.className='ggskin ggskin_button ';
+		this._paplooo.ggType='button';
 		hs ='';
 		hs+='cursor : pointer;';
 		hs+='height : 30px;';
@@ -524,26 +524,26 @@ function pano2vrSkin(player,base) {
 		hs+='visibility : inherit;';
 		hs+='width : 30px;';
 		hs+='pointer-events:auto;';
-		this._gyro.setAttribute('style',hs);
-		this._gyro.style[domTransform + 'Origin']='50% 50%';
-		me._gyro.ggIsActive=function() {
+		this._paplooo.setAttribute('style',hs);
+		this._paplooo.style[domTransform + 'Origin']='50% 50%';
+		me._paplooo.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
 			return false;
 		}
-		me._gyro.ggElementNodeId=function() {
+		me._paplooo.ggElementNodeId=function() {
 			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
 				return this.parentNode.ggElementNodeId();
 			}
 			return me.player.getCurrentNode();
 		}
-		this._gyro.onclick=function (e) {
+		this._paplooo.onclick=function (e) {
 			gyro.toggle();
 		}
-		this._gyro.ggUpdatePosition=function (useTransition) {
+		this._paplooo.ggUpdatePosition=function (useTransition) {
 		}
-		this._up.appendChild(this._gyro);
+		this._up.appendChild(this._paplooo);
 		this._controller.appendChild(this._up);
 		this._down=document.createElement('div');
 		this._down__img=document.createElement('img');
