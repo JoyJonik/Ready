@@ -53,7 +53,7 @@
 		skin=new pano2vrSkin(pano);
 		// load the configuration
 		window.addEventListener("load", function() {
-			pano.readConfigUrlAsync("pano.xml",function() {  gyro=new pano2vrGyro(pano,"container");});
+			pano.readConfigUrlAsync("pano.xml",function() {  gyro=new pano2vrGyro(pano,"container"); gyro.disable();});
 		});
 		</script>
 		<noscript>
