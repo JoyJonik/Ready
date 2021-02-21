@@ -39,6 +39,8 @@
 		</script>
 		<script type="text/javascript" src="skin.js">
 		</script>
+		<script type="text/javascript" src="pano2vrgyro.js">
+		</script>
 		<div id="container" style="width:100%;height:100%;overflow:hidden;">
 		<br>Loading...<br><br>
 		This content requires HTML5 with CSS3 3D Transforms or WebGL.
@@ -51,7 +53,7 @@
 		skin=new pano2vrSkin(pano);
 		// load the configuration
 		window.addEventListener("load", function() {
-			pano.readConfigUrlAsync("pano.xml");
+			pano.readConfigUrlAsync("pano.xml",function() {  gyro=new pano2vrGyro(pano,"container"); gyro.disable(); gyro.setTrueNorth(true);});
 		});
 		</script>
 		<noscript>
