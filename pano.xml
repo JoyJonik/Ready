@@ -19,7 +19,7 @@
       <hotspot description="" url="{node1}" skinid="ht_node" title="Коридор 2-часть" pan="0.53" tilt="-9.1" id="Коридор 2" target=""/>
       <hotspot description="" url="{node2}" skinid="ht_node" title="М.Аудитория 1" pan="-121.39" tilt="-4" id="М.Аудитория 1" target=""/>
       <hotspot description="" url="{node3}" skinid="ht_node" title="М.Аудитория 2" pan="-14.85" tilt="-2.85" id="М.Аудитория 2" target=""/>
-      <hotspot description="" url="{node6}" skinid="ht_node" title="О.Аудитория 1" pan="40.53" tilt="-2.83" id="О.Аудитория 1" target=""/>
+      <hotspot description="" url="{node6}" skinid="ht_node" title="О.Аудитория 1" pan="40.53" tilt="-2.68" id="О.Аудитория 1" target="-106.4/3.7/70.0"/>
       <hotspot description="" url="images/коридор 2.png" skinid="ht_image" title="" pan="140.52" tilt="14.85" id="Point01" target=""/>
       <hotspot description="" url="images/В коридоре 1.png" skinid="ht_image" title="" pan="-46.24" tilt="19.67" id="Point02" target=""/>
       <hotspot description="" url="images/Коридор 3.png" skinid="ht_image" title="" pan="15.77" tilt="8.24" id="Point03" target=""/>
@@ -45,10 +45,10 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" textalpha="1" wordwrap="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" textcolor="0x000000" bordercolor="0x000000" width="180" border="1" enabled="1" borderalpha="1" borderradius="1"/>
       <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot description="" url="{node9}" skinid="ht_node" title="Коридор 1-часть " pan="179.77" tilt="-10.98" id="Коридор 1-часть " target=""/>
+      <hotspot description="" url="{node9}" skinid="ht_node" title="Коридор 1-часть " pan="179.77" tilt="-10.98" id="Коридор 1-часть " target="-179.7/-4.9/70.0"/>
       <hotspot description="" url="{node10}" skinid="ht_node" title="Коридор 3-часть" pan="0.68" tilt="-11.46" id="Коридор 3" target=""/>
       <hotspot description="" url="{node4}" skinid="ht_node" title="М.Комната 3" pan="-134.32" tilt="-1.09" id="М.Комната 3" target=""/>
-      <hotspot description="" url="{node5}" skinid="ht_node" title="О.Аудитория 2" pan="103.81" tilt="-6.05" id="О.Аудитория 2" target=""/>
+      <hotspot description="" url="{node5}" skinid="ht_node" title="О.Аудитория 2" pan="103.81" tilt="-6.05" id="О.Аудитория 2" target="-94.2/-0.6/70.0"/>
       <hotspot description="" url="images/Коридор 15.png" skinid="ht_image" title="" pan="23.33" tilt="11.09" id="Point01" target=""/>
       <hotspot description="" url="images/Коридор 24.png" skinid="ht_image" title="" pan="-153.67" tilt="10.71" id="Point02" target=""/>
       <hotspot description="" url="images/Коридор 3.png" skinid="ht_image" title="" pan="159.67" tilt="10.14" id="Point03" target=""/>
@@ -194,7 +194,7 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" textalpha="1" wordwrap="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" textcolor="0x000000" bordercolor="0x000000" width="180" border="1" enabled="1" borderalpha="1" borderradius="1"/>
       <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot description="" url="{node10}" skinid="ht_node" title="Коридор 3-часть " pan="90.74" tilt="1.19" id="Коридор 3 " target=""/>
+      <hotspot description="" url="{node10}" skinid="ht_node" title="Коридор 3-часть " pan="90.74" tilt="1.19" id="Коридор 3 " target="-95.0/-6.9/70.0"/>
       <hotspot description="" url="images/Комната 20.png" skinid="ht_image" title="" pan="29.6" tilt="17.78" id="Point01" target=""/>
       <hotspot description="" url="images/Комната 27.png" skinid="ht_image" title="" pan="4.14" tilt="11.47" id="Point02" target=""/>
     </hotspots>
@@ -218,7 +218,7 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" textalpha="1" wordwrap="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" textcolor="0x000000" bordercolor="0x000000" width="180" border="1" enabled="1" borderalpha="1" borderradius="1"/>
       <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot description="" url="{node10}" skinid="ht_node" title="Коридор 3-часть" pan="81.17" tilt="1.05" id="Коридор 3" target=""/>
+      <hotspot description="" url="{node10}" skinid="ht_node" title="Коридор 3-часть" pan="81.17" tilt="1.05" id="Коридор 3" target="-179.6/-2.0/70.0"/>
       <hotspot description="" url="images/Комната 4.png" skinid="ht_image" title="" pan="31.83" tilt="16.62" id="Point01" target=""/>
       <hotspot description="" url="images/Комната 6.png" skinid="ht_image" title="" pan="16.75" tilt="13.79" id="Point02" target=""/>
       <hotspot description="" url="images/Комната 5.png" skinid="ht_image" title="" pan="6.77" tilt="10.88" id="Point03" target=""/>
@@ -247,9 +247,9 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" textalpha="1" wordwrap="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" textcolor="0x000000" bordercolor="0x000000" width="180" border="1" enabled="1" borderalpha="1" borderradius="1"/>
       <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot description="" url="{node1}" skinid="ht_node" title="Коридор 2-часть" pan="-179.28" tilt="-12.87" id="Коридор 2" target=""/>
-      <hotspot description="" url="{node7}" skinid="ht_node" title="О.Аудитория 3" pan="70.94" tilt="-7.25" id="О.Аудитория 3" target=""/>
-      <hotspot description="" url="{node8}" skinid="ht_node" title="О.Аудитория 4" pan="9.68" tilt="-0.44" id="О.Аудитория 4" target=""/>
+      <hotspot description="" url="{node1}" skinid="ht_node" title="Коридор 2-часть" pan="-179.28" tilt="-12.87" id="Коридор 2" target="-179.7/-2.5/70.0"/>
+      <hotspot description="" url="{node7}" skinid="ht_node" title="О.Аудитория 3" pan="71.26" tilt="-7.25" id="О.Аудитория 3" target="-99.6/-3.6/70.0"/>
+      <hotspot description="" url="{node8}" skinid="ht_node" title="О.Аудитория 4" pan="9.68" tilt="-0.44" id="О.Аудитория 4" target="-106.9/-3.4/70.0"/>
       <hotspot description="" url="images/Коридор 26.png" skinid="ht_image" title="" pan="24.46" tilt="11.16" id="Point01" target=""/>
       <hotspot description="" url="images/Коридор 30.png" skinid="ht_image" title="" pan="-21.06" tilt="9.05" id="Point02" target=""/>
       <hotspot description="" url="images/Коридор 15.png" skinid="ht_image" title="" pan="159.16" tilt="9.68" id="Point03" target=""/>
