@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.2.4/15996
 // Filename: simplex_v5_autohide.ggsk
-// Generated Вс фев 21 18:25:16 2021
+// Generated Вс фев 21 18:36:03 2021
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -501,6 +501,49 @@ function pano2vrSkin(player,base) {
 		}
 		this._up.ggUpdatePosition=function (useTransition) {
 		}
+		this._gyro=document.createElement('div');
+		this._gyro__img=document.createElement('img');
+		this._gyro__img.className='ggskin ggskin_button';
+		this._gyro__img.setAttribute('src',basePath + 'images/gyro.png');
+		this._gyro__img.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;');
+		this._gyro__img.className='ggskin ggskin_button';
+		this._gyro__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._gyro__img);
+		this._gyro.appendChild(this._gyro__img);
+		this._gyro.ggId="gyro";
+		this._gyro.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._gyro.ggVisible=true;
+		this._gyro.className='ggskin ggskin_button ';
+		this._gyro.ggType='button';
+		hs ='';
+		hs+='cursor : pointer;';
+		hs+='height : 30px;';
+		hs+='left : -53px;';
+		hs+='position : absolute;';
+		hs+='top : 15px;';
+		hs+='visibility : inherit;';
+		hs+='width : 30px;';
+		hs+='pointer-events:auto;';
+		this._gyro.setAttribute('style',hs);
+		this._gyro.style[domTransform + 'Origin']='50% 50%';
+		me._gyro.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		me._gyro.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return me.player.getCurrentNode();
+		}
+		this._gyro.onclick=function (e) {
+			gyro.toggle();
+		}
+		this._gyro.ggUpdatePosition=function (useTransition) {
+		}
+		this._up.appendChild(this._gyro);
 		this._controller.appendChild(this._up);
 		this._down=document.createElement('div');
 		this._down__img=document.createElement('img');
@@ -2663,49 +2706,6 @@ function pano2vrSkin(player,base) {
 		this._button_image_fullscreen.appendChild(this._tt_enter_fullscreen);
 		this._button_simplex_fullscreen.appendChild(this._button_image_fullscreen);
 		this._controller.appendChild(this._button_simplex_fullscreen);
-		this._gyro=document.createElement('div');
-		this._gyro__img=document.createElement('img');
-		this._gyro__img.className='ggskin ggskin_button';
-		this._gyro__img.setAttribute('src',basePath + 'images/gyro.png');
-		this._gyro__img.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;');
-		this._gyro__img.className='ggskin ggskin_button';
-		this._gyro__img['ondragstart']=function() { return false; };
-		me.player.checkLoaded.push(this._gyro__img);
-		this._gyro.appendChild(this._gyro__img);
-		this._gyro.ggId="gyro";
-		this._gyro.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._gyro.ggVisible=true;
-		this._gyro.className='ggskin ggskin_button ';
-		this._gyro.ggType='button';
-		hs ='';
-		hs+='cursor : pointer;';
-		hs+='height : 30px;';
-		hs+='left : 283px;';
-		hs+='position : absolute;';
-		hs+='top : 11px;';
-		hs+='visibility : inherit;';
-		hs+='width : 30px;';
-		hs+='pointer-events:auto;';
-		this._gyro.setAttribute('style',hs);
-		this._gyro.style[domTransform + 'Origin']='50% 50%';
-		me._gyro.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		me._gyro.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return me.player.getCurrentNode();
-		}
-		this._gyro.onclick=function (e) {
-			gyro.toggle();
-		}
-		this._gyro.ggUpdatePosition=function (useTransition) {
-		}
-		this._controller.appendChild(this._gyro);
 		this._hide_elements.appendChild(this._controller);
 		this.divSkin.appendChild(this._hide_elements);
 		this._loading=document.createElement('div');
